@@ -3,6 +3,6 @@ import {Button} from '@mui/material';
 
 export default function ButtonTest() {
   return (
-    <Button variant="contained" color='primary'>Hello world</Button>
+    <Button variant="contained" color='secondary'>Hello world</Button>
   );
 }
