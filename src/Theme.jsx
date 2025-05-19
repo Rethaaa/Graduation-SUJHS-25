@@ -12,8 +12,8 @@ export default function Theme(props) {
           main: '#FFB915',
           light: '#FFD358'
         },
-        yellow: {
-          main: '#FFD358'
+        yellow:{
+          main:'#FFD358',
         },
       },
     });
