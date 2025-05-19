@@ -2,6 +2,7 @@ import * as React from 'react';
 import Theme from './Theme'
 import ButtonTest from './ButtonTest'
 import Button2 from './Button2.jsx'
+import Button2 from './Button2'
 import './App.css'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <Button2></Button2>
       <Button2></Button2>
       <Button2></Button2>
+      <ButtonTest></ButtonTest>
       <Button2></Button2>
       <Button2></Button2>
       <Button2></Button2>
