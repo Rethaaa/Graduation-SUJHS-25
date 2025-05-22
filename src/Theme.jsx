@@ -13,7 +13,7 @@ export default function Theme(props) {
           light: '#FFD358'
         },
         yellow:{
-          main:'#FFD358'
+          main:'#FFD358',
         },
       },
     });
