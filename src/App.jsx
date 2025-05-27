@@ -5,32 +5,21 @@ import Button2 from './Button2.jsx'
 import Button2 from './Button2'
 import ImageGallery from './infokegiatan'
 import './App.css'
-
+import Navbar from './navbar.jsx'
+import './navbar.css'
 export default function App() {
   return (
     <Theme>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <ButtonTest></ButtonTest>
-      <Button2></Button2>
-      <Button2></Button2>
-      <Button2></Button2>
-      <Button2></Button2>
-      <ButtonTest></ButtonTest>
-      <Button2></Button2>
-      <Button2></Button2>
-      <Button2></Button2>
-      <Button2></Button2>
-      <Button2></Button2>
       <div>
         <ImageGallery></ImageGallery>
       </div>
+       <div>
+      <Navbar />
+      <main style={{ padding: "20px", color: "#003F66" }}>
+        <h1>Welcome to Graduation 25 🎓</h1>
+        <p>This is your page content!</p>
+      </main>
+    </div>
     </Theme>
-  )
+  );
 }
