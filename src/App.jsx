@@ -3,12 +3,16 @@ import Theme from './Theme'
 import ButtonTest from './ButtonTest'
 import Button2 from './Button2.jsx'
 import Button2 from './Button2'
+import ImageGallery from './infokegiatan'
 import './App.css'
 import Navbar from './navbar.jsx'
 import './navbar.css'
 export default function App() {
   return (
     <Theme>
+      <div>
+        <ImageGallery></ImageGallery>
+      </div>
        <div>
       <Navbar />
       <main style={{ padding: "20px", color: "#003F66" }}>
