@@ -1,7 +1,6 @@
 import Theme from './Theme';
 import Navbar from './navbar';
 import Banner from './banner';
-import Info from './infoKegiatan.jsx';
 import YB from './YB';
 import Classes from './Classes';
 import Teacher from './Teacher';
