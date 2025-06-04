@@ -26,17 +26,17 @@ export default function Classes() {
   };
 
   return (
-    <Box sx={{ width: '100%', p: 2 }}>
-      <Typography variant="h4" align="center" gutterBottom>
+    <Box sx={{ bgcolor: '#FFB915', width: '100%', p: 2 }}>
+      <Typography variant="h4" align="center" gutterBottom sx={{color: '#fff'}}>
         Class of 2025
       </Typography>
 
-      <Tabs value={tabValue} onChange={handleTabChange} centered>
-        <Tab label="91" />
-        <Tab label="92" />
-        <Tab label="93" />
-        <Tab label="94" />
-        <Tab label="95" />
+      <Tabs value={tabValue} onChange={handleTabChange} centered >
+        <Tab label="91" sx={{color: '#fff'}} />
+        <Tab label="92" sx={{color: '#fff'}} />
+        <Tab label="93" sx={{color: '#fff'}} />
+        <Tab label="94" sx={{color: '#fff'}} />
+        <Tab label="95" sx={{color: '#fff'}} />
       </Tabs>
 
       <TabPanel value={tabValue} index={0}>

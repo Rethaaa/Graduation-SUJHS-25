@@ -23,11 +23,11 @@ export default function YB() {
   return (
     <Box sx={{ width: '100%', p: 2 }}>
       <Typography variant="h4" align="center" gutterBottom>
-        About YB
+        About Yearbook
       </Typography>
 
       <Tabs value={tabValue} onChange={handleTabChange} centered>
-        <Tab label="Logo & Maskot" />
+        <Tab label="Logo & Mascot" />
         <Tab label="Tab 2" />
         <Tab label="Tab 3" />
       </Tabs>

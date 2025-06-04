@@ -3,7 +3,7 @@ import { Box, Typography, Divider, List, ListItem } from '@mui/material';
 
 const Footer = () => {
   return (
-    <Box sx={{ bgcolor: '#f5f5f5', px: 4, py: 6, mt: 8 }}>
+    <Box sx={{ bgcolor: '#002A45', color: '#fff', px: 4, py: 6, mt: 8 }}>
       <Box
         sx={{
           display: 'flex',
@@ -47,7 +47,7 @@ const Footer = () => {
                   <ListItem disableGutters>Emilie Soesanto</ListItem>
                   <ListItem disableGutters>Kenisha Djohan Young</ListItem>
                   <ListItem disableGutters>Kayla Almyra Wardhana</ListItem>
-                  <ListItem disableGutters>⁠Lucia Nera Candra Puntadewa</ListItem>
+                  <ListItem disableGutters>Lucia Nera Candra Puntadewa</ListItem>
                   <ListItem disableGutters>Catleen Mulan Tyas Ho</ListItem>
                   <ListItem disableGutters>Latisha Lowena Lynd</ListItem>
                   <ListItem disableGutters>Regina Gracia Johanes</ListItem>

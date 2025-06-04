@@ -17,6 +17,7 @@ const ImageGallery = () => {
         alignItems: 'center',
         height: '100vh',
         width: '100vw',
+        background: 'radial-gradient(circle, #FFB915 10%, #fff, #fff, #fff)'
       }}
     >
       <Grid container spacing={2} sx={{ maxWidth: 1200 }}>
@@ -40,6 +41,7 @@ const ImageGallery = () => {
                   height: '100%',
                   width: 'auto',
                   objectFit: 'cover',
+                  objectPosition: 'center',
                   transition: 'transform 0.4s ease',
                 },
                 '&:hover img': {
