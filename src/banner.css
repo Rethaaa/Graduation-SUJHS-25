@@ -1,5 +1,7 @@
 .slider {
   width: 100%;
+  max-width: 800px;
+  margin: auto;
   overflow: hidden;
   position: relative;
 }
@@ -14,6 +16,10 @@
   height: 500px;
   background-size: cover;
   background-position: center;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 .foto-1 { background-color: #f8b195; }
 .foto-2 { background-color: #f67280; }

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Theme from './Theme'
 import Navbar from './navbar'
 import Banner from './banner'
@@ -8,7 +7,8 @@ import Classes from './Classes'
 import Teacher from './Teacher'
 import Footer from './Footer'
 import './App.css'
-
+import Navbar from './navbar.jsx'
+import './navbar.css'
 export default function App() {
   return (
     <Theme>
@@ -20,5 +20,5 @@ export default function App() {
       <Info></Info>
       <Footer></Footer>
     </Theme>
-  )
+  );
 }
