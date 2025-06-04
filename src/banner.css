@@ -1,11 +1,11 @@
 .slider {
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
+  width: 100vw;
   overflow: hidden;
   position: relative;
+  background-color: #000;
 }
 .list {
+  width: 100vw;
   display: flex;
   transition: 0.5s ease-in-out;
   position: relative;
@@ -14,18 +14,16 @@
 .foto {
   min-width: 100%;
   height: 500px;
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
+  opacity: 0.3;
 }
-.foto-1 { background-color: #f8b195; }
-.foto-2 { background-color: #f67280; }
-.foto-3 { background-color: #c06c84; }
-.foto-4 { background-color: #6c5b7b; }
-.foto-5 { background-color: #355c7d; }
+.foto-1 { background: url(./Science\ Club.jpg); background-size: cover; background-position-y: top;}
+.foto-2 { background: url(./Basket.jpg); background-size: cover; background-position-y: bottom;}
+.foto-3 { background: url(./Komputer.jpg); background-size: cover; background-position-y: center;}
+.foto-4 { background: url(./MB.jpg); background-size: cover; background-position-y: center;}
+.foto-5 { background: url(./Orkestra.jpg); background-size: cover; background-position-y: center;}
+
 .button {
   position: absolute;
   top: 50%;
@@ -85,7 +83,7 @@
 }
 
 .logo img {
-  width: 250px;
+  width: 300px;
   height: auto;
   opacity: 0.9;
 }

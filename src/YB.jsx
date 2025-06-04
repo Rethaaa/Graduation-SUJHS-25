@@ -23,18 +23,18 @@ export default function YB() {
   return (
     <Box sx={{ width: '100%', p: 2 }}>
       <Typography variant="h4" align="center" gutterBottom>
-        About YB
+        About Yearbook
       </Typography>
 
       <Tabs value={tabValue} onChange={handleTabChange} centered>
-        <Tab label="Tab 1" />
+        <Tab label="Logo & Mascot" />
         <Tab label="Tab 2" />
         <Tab label="Tab 3" />
       </Tabs>
 
       <TabPanel value={tabValue} index={0}>
         <Paper elevation={3} sx={{ p: 3 }}>
-          <Grid container spacing={5}>
+          <Grid container spacing={5} sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
             <Grid item xs={12} md={4}>
               <Box
                 component="img"
@@ -46,7 +46,7 @@ export default function YB() {
             </Grid>
             <Grid item xs={12} md={8}>
               <Typography variant="body1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Graduation siswi Santa Ursula Jakarta tahun 2025 mengangkat tema MOSAIC: Marks of Persistence United with Resilience, yang mencerminkan perjalanan Sanurian’25 dengan semangat pantang menyerah (persistence), ketangguhan dalam menghadapi tantangan (resilience), dan kebersamaan (unity). Seperti burung layang-layang (swallow bird) yang bermigrasi dalam kelompok dengan ketekunan dan kerja sama, Sanurian’25 tumbuh bersama, saling mendukung, dan menggapai mimpi secara kolektif. Maskot burung layang-layang dalam gaya mosaik dipilih sebagai simbol ketangguhan, persatuan, dan nilai SERVIAM yang menjadi fondasi dalam tiga tahun perjalanan kami di SMP Santa Ursula Jakarta.
               </Typography>
             </Grid>
           </Grid>

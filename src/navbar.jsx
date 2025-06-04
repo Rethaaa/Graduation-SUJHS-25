@@ -13,7 +13,14 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const navItems = ["Home", "About", "Portfolio", "Contact"];
+// const navItems = [
+//   { label: "Home", href: "#home" },
+//   { label: "Yearbook", href: "#yearbook" },
+//   { label: "Students", href: "#students" },
+//   { label: "Teachers", href: "#teachers" },
+//   { label: "Memories", href: "#memories" },
+// ];
+const navItems = ["Home", "Yearbook", "Students", "Teachers", "Memories"];
 
 const ResponsiveNavbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
