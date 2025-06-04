@@ -17,7 +17,6 @@ const ImageGallery = () => {
         alignItems: 'center',
         height: '100vh',
         width: '100vw',
-        bgcolor: '#f0f0f0',
       }}
     >
       <Grid container spacing={2} sx={{ maxWidth: 1200 }}>
