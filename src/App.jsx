@@ -1,14 +1,13 @@
-import Theme from './Theme'
-import Navbar from './navbar'
-import Banner from './banner'
-import Info from './infoKegiatan'
-import YB from './YB'
-import Classes from './Classes'
-import Teacher from './Teacher'
-import Footer from './Footer'
-import './App.css'
-import Navbar from './navbar.jsx'
-import './navbar.css'
+import Theme from './Theme';
+import Navbar from './navbar';
+import Banner from './banner';
+import Info from './infoKegiatan.jsx';
+import YB from './YB';
+import Classes from './Classes';
+import Teacher from './Teacher';
+import Footer from './Footer';
+import './App.css';
+
 export default function App() {
   return (
     <Theme>
