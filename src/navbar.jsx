@@ -1,40 +1,103 @@
 import React, { useState } from "react";
-import "./navbar.css";
-export default function Navbar() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+import {
+  AppBar,
+  Toolbar,
+  Typography,
+  IconButton,
+  Drawer,
+  List,
+  ListItem,
+  ListItemText,
+  Box,
+  Button,
+} from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+
+const navItems = ["Home", "About", "Portfolio", "Contact"];
+
+const ResponsiveNavbar = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
+  };
+
+  const drawer = (
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+        MOSAIC
+      </Typography>
+      <List>
+        {navItems.map((item) => (
+          <ListItem button key={item}>
+            <ListItemText primary={item} />
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
+
   return (
     <>
-      <nav className="navbar">
-        <div className="logo">Graduation 25</div>
-        <ul className="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Yearbook</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">Students</a></li>
-          <li><a href="#">Memories</a></li>
-        </ul>
-        <button
-          className="menu-button"
-          onClick={() => setSidebarOpen(true)}
+      <AppBar component="nav">
+        <Toolbar >
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "flex" },
+              flexDirection: "row",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              gap: 3,
+            }}
+          >
+            <img
+              srcSet={"./Logo.png"}
+              alt={"Logo"}
+              loading="lazy"
+              width={50}
+            />
+            <Typography
+              variant="h6"
+            >
+              MOSAIC
+            </Typography>
+          </Box>
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            {navItems.map((item) => (
+              <Button key={item} sx={{ color: "#fff" }}>
+                {item}
+              </Button>
+            ))}
+          </Box>
+          <IconButton
+            color="inherit"
+            edge="end"
+            onClick={handleDrawerToggle}
+            sx={{ display: { sm: "none" } }}
+          >
+            <MenuIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+
+      <Box component="nav">
+        <Drawer
+          variant="temporary"
+          open={mobileOpen}
+          onClose={handleDrawerToggle}
+          ModalProps={{ keepMounted: true }}
+          sx={{
+            display: { xs: "block", sm: "none" },
+            "& .MuiDrawer-paper": { boxSizing: "border-box", width: 240 },
+          }}
         >
-          ☰
-        </button>
-      </nav>
-
-      {/* Sidebar Overlay */}
-      <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
-        <button className="close-button" onClick={() => setSidebarOpen(false)}>×</button>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Yearbook</a></li>
-          <li><a href="#">Teachers</a></li>
-          <li><a href="#">Students</a></li>
-          <li><a href="#">Memories</a></li>
-        </ul>
-      </div>
-
-      {/* Overlay background */}
-      {sidebarOpen && <div className="overlay" onClick={() => setSidebarOpen(false)} />}
+          {drawer}
+        </Drawer>
+      </Box>
+      <Toolbar />
     </>
   );
-}
+};
+
+export default ResponsiveNavbar;

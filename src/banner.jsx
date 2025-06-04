@@ -48,6 +48,7 @@ export default function Banner() {
   return (
     <div className="slider">
       <div className="logo">
+        <img src="./Logo_Botol.png" alt="Logo" />
         <img src="/logo.png" alt="Logo" />
       </div>
       <div className="list">
