@@ -1,12 +1,24 @@
 import * as React from 'react';
 import Theme from './Theme'
-import ButtonTest from './ButtonTest'
+import Navbar from './navbar'
+import Banner from './banner'
+import Info from './infoKegiatan'
+import YB from './YB'
+import Classes from './Classes'
+import Teacher from './Teacher'
+import Footer from './Footer'
 import './App.css'
 
 export default function App() {
   return (
     <Theme>
-      <ButtonTest></ButtonTest>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <YB></YB>
+      <Classes></Classes>
+      <Teacher></Teacher>
+      <Info></Info>
+      <Footer></Footer>
     </Theme>
   )
 }
