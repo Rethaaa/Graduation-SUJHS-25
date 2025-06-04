@@ -43,7 +43,13 @@ const Polaroid = ({ imageUrl, description, onMouseEnter, onMouseLeave, onClick }
               key={index}
               variant="body2"
               align="center"
-              sx={{ marginBottom: 0.5 }}
+              sx={{
+    whiteSpace: "normal",     // ✅ allow wrapping
+    overflow: "hidden",       // ✅ keep layout safe
+    textOverflow: "ellipsis", // ✅ optional: add ... when needed
+    wordBreak: "break-word",  // ✅ break very long words
+    display: "block",         // ✅ make sure it's not inline
+  }}
             >
               {text}
             </Typography>

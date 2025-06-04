@@ -16,6 +16,9 @@ export default function Theme(props) {
           main:'#FFD358',
         },
       },
+      typography: {
+        fontFamily: 'DM Sans',
+      },
     });
     return (
         <ThemeProvider theme={themeOptions}>

@@ -4,6 +4,7 @@ import Banner from './banner';
 import YB from './YB';
 import Classes from './Classes';
 import Teacher from './Teacher';
+import Info from './infoKegiatan';
 import Footer from './Footer';
 import './App.css';
 

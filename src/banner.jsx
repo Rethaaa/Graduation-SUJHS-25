@@ -49,9 +49,13 @@ export default function Banner() {
     <div className="slider">
       <div className="logo">
         <img src="./Logo_Botol.png" alt="Logo" />
-        <img src="/logo.png" alt="Logo" />
       </div>
       <div className="list">
+        {/* <img src="./Science Club.jpg" alt="" className="foto foto-1" />
+        <img src="./Orkestra.jpg" alt="" className="foto foto-2" />
+        <img src="./MB.jpg" alt="" className="foto foto-3" />
+        <img src="./Basket.jpg" alt="" className="foto foto-4" />
+        <img src="./Komputer.jpg" alt="" className="foto foto-5" /> */}
         <div className="foto foto-1"></div>
         <div className="foto foto-2"></div>
         <div className="foto foto-3"></div>
