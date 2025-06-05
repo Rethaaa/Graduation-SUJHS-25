@@ -2,13 +2,13 @@ import { Grid, Box, Typography } from '@mui/material';
 import InfoIcon from '@mui/icons-material/Info';
 
 const images = [
-  { src: './Camping.jpeg', title: 'Camping', description: 'Camping dengan tema "Finding God in Nature" adalah sebuah pengalaman spiritual di tengah keindahan alam ciptaan-Nya. Dalam keheningan hutan, suara aliran sungai, dan langit malam yang bertabur bintang, peserta diajak untuk merenungkan kebesaran Tuhan, memperdalam iman, serta menemukan damai dan makna hidup melalui keajaiban alam. Kegiatan ini menggabungkan waktu teduh, diskusi rohani, serta aktivitas alam yang membangkitkan rasa syukur dan kekaguman akan karya Sang Pencipta.' },
-  { src: './Live In.jpg', title: 'Live In', description: 'Live in dengan tema "New Experience, Become Inspirations" adalah program pembelajaran langsung di tengah kehidupan masyarakat yang sederhana namun penuh makna. Melalui pengalaman baru tinggal dan berinteraksi dengan warga lokal, peserta diajak untuk membuka hati, belajar dari kehidupan nyata, serta menemukan nilai-nilai kehidupan yang dapat menginspirasi diri sendiri dan orang lain. Program ini menumbuhkan empati, rasa syukur, dan semangat untuk membawa perubahan positif setelah kembali ke lingkungan masing-masing.' },
-  { src: './Bazaar.jpg', title: 'Bazaar', description: 'Bazaar dengan tema "PUSPANUSA" adalah perayaan meriah yang menampilkan keindahan dan keragaman budaya Indonesia. Melalui aneka kuliner tradisional, kerajinan tangan, busana daerah, serta pertunjukan seni dari berbagai penjuru Nusantara, acara ini menjadi wadah untuk mengenal, mencintai, dan melestarikan kekayaan budaya bangsa. "PUSPANUSA" bukan sekadar bazaar, melainkan pengalaman budaya yang menyatukan warna-warni Indonesia dalam satu harmoni yang memikat.' },
-  { src: './Retret.jpg', title: 'Retret', description: 'Retret adalah kegiatan perenungan dan penyegaran rohani yang dilakukan dalam suasana tenang dan jauh dari hiruk-pikuk keseharian. Melalui sesi refleksi, doa, sharing, dan pembinaan iman, peserta diajak untuk lebih mengenal diri, memperdalam relasi dengan Tuhan, serta menemukan arah dan makna hidup yang baru. Retret menjadi momen istimewa untuk berhenti sejenak, mendengarkan suara hati, dan kembali dengan semangat serta kedamaian yang diperbarui.' },
+  { src: '/Graduation-SUJHS-25/images/a.png', title: 'Image A', description: 'This is description A' },
+  { src: '/Graduation-SUJHS-25/images/b.png', title: 'Image B', description: 'This is description B' },
+  { src: '/Graduation-SUJHS-25/images/c.png', title: 'Image C', description: 'This is description C' },
+  { src: '/Graduation-SUJHS-25/images/d.png', title: 'Image D', description: 'This is description D' },
 ];
 
-const ImageGallery = () => {
+export default function infoKegiatan () {
   return (
     <Box
       sx={{
@@ -17,8 +17,7 @@ const ImageGallery = () => {
         alignItems: 'center',
         height: '100vh',
         width: '100vw',
-background: 'radial-gradient(circle, #FFB915 10%, #fff, #fff, #fff)'
-      }}
+              }}
     >
       <Grid container spacing={2} sx={{ maxWidth: 1200 }}>
         {images.map((img, index) => (
@@ -41,8 +40,7 @@ background: 'radial-gradient(circle, #FFB915 10%, #fff, #fff, #fff)'
                   height: '100%',
                   width: 'auto',
                   objectFit: 'cover',
-objectPosition: 'center',
-                  transition: 'transform 0.4s ease',
+                                    transition: 'transform 0.4s ease',
                 },
                 '&:hover img': {
                   transform: 'translateX(0)',
@@ -110,5 +108,3 @@ objectPosition: 'center',
     </Box>
   );
 };
-
-export default ImageGallery;
