@@ -12,8 +12,8 @@ export default function App() {
   return (
     <Theme>
       <Navbar></Navbar>
-      <Banner></Banner>
-      <YB></YB>
+      <Banner id="home"></Banner>
+      <YB id="yearbook"></YB>
       <Classes></Classes>
       <Teacher></Teacher>
       <Info></Info>

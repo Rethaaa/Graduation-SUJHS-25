@@ -51,11 +51,11 @@ export default function Banner() {
         <img src="./Logo_Botol.png" alt="Logo" />
       </div>
       <div className="list">
-        <div className="foto foto-1"></div>
-        <div className="foto foto-2"></div>
-        <div className="foto foto-3"></div>
-        <div className="foto foto-4"></div>
-        <div className="foto foto-5"></div>
+        <img src="./Science Club.jpg" alt="" className="foto foto-1" />
+        <img src="./Basket.jpg" alt="" className="foto foto-2" />
+        <img src=".Komputer.jpg" alt="" className="foto foto-3" />
+        <img src="./MB.jpg" alt="" className="foto foto-4" />
+        <img src="./Orkestra.jpg" alt="" className="foto foto-5" />
       </div>
       <div className="button">
         <button id="prev">&lt;</button>

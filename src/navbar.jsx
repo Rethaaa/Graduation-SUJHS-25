@@ -13,14 +13,14 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-// const navItems = [
-//   { label: "Home", href: "#home" },
-//   { label: "Yearbook", href: "#yearbook" },
-//   { label: "Students", href: "#students" },
-//   { label: "Teachers", href: "#teachers" },
-//   { label: "Memories", href: "#memories" },
-// ];
-const navItems = ["Home", "Yearbook", "Students", "Teachers", "Memories"];
+const navItems = [
+  { label: "Home", href: "#home" },
+  { label: "Yearbook", href: "#yearbook" },
+  { label: "Students", href: "#students" },
+  { label: "Teachers", href: "#teachers" },
+  { label: "Memories", href: "#memories" },
+];
+// const navItems = ["Home", "Yearbook", "Students", "Teachers", "Memories"];
 
 const ResponsiveNavbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -36,8 +36,8 @@ const ResponsiveNavbar = () => {
       </Typography>
       <List>
         {navItems.map((item) => (
-          <ListItem button key={item}>
-            <ListItemText primary={item} />
+          <ListItem button key={item.label} component="a" href={item.href}>
+            <ListItemText primary={item.label} />
           </ListItem>
         ))}
       </List>
@@ -72,8 +72,8 @@ const ResponsiveNavbar = () => {
           </Box>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
+              <Button key={item.label} sx={{ color: "#fff" }} component="a" href={item.href}>
+                {item.label}
               </Button>
             ))}
           </Box>
