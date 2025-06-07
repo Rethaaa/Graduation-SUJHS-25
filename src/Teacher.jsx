@@ -70,7 +70,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Matematika-1.jpg",
+    imageUrl: "./MAT-1.jpg",
     description: [
       "Martinus Didik Setyawan",
       "22 Februari",
@@ -81,7 +81,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Matematika-2.jpg",
+    imageUrl: "./MAT-2.jpg",
     description: [
       "Chatarina Maryani",
       "3 Maret",
@@ -92,7 +92,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Matematika-3.jpg",
+    imageUrl: "./MAT-3.jpg",
     description: [
       "Emilia Hendra Kristanti",
       "1 Oktober",
@@ -136,7 +136,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./IPS-Pkn-1.jpg",
+    imageUrl: "./PKN-1.jpg",
     description: [
       "Aloysius Krismaryanta ",
       "31 Mei",
@@ -147,7 +147,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./IPS-Pkn-2.jpg",
+    imageUrl: "./PKN-2.jpg",
     description: [
       "Arny Porba",
       "4 April",
@@ -158,7 +158,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./IPS-Pkn-3-.jpg",
+    imageUrl: "./PKN-3.jpg",
     description: [
       "Arya Raka Sadewa ",
       "21 September",
@@ -169,7 +169,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Inggris-1.jpg",
+    imageUrl: "./ING-1.jpg",
     description: [
       "Vina Agustin",
       "6 Agustus",
@@ -180,7 +180,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Inggris-2.jpg",
+    imageUrl: "./ING-2.jpg",
     description: [
       "Khrisna Putuningsih",
       "8 Juni",
@@ -191,7 +191,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Inggris-3.jpg",
+    imageUrl: "./ING-3.jpg",
     description: [
       "Yohana Alaya Prudenti",
       "23 Juni",
@@ -202,7 +202,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Agama-1.jpg",
+    imageUrl: "./AGA-1.jpg",
     description: [
       "Karinna",
       "28 November",
@@ -213,7 +213,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Agama-2.jpg",
+    imageUrl: "./AGA-2.jpg",
     description: [
       "Ignatius Dimmas",
       "9 Juli",
@@ -246,7 +246,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Bahasa Indonesia-1.jpg",
+    imageUrl: "./BI-1.jpg",
     description: [
       "Yulia Sri Utami",
       "28 Mei",
@@ -257,7 +257,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Bahasa Indonesia-2.jpg",
+    imageUrl: "./BI-2.jpg",
     description: [
       "Antonius Haris Septiaji ",
       "20 September",
@@ -268,7 +268,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Bahasa Indonesia-3.jpg",
+    imageUrl: "./BI-3.jpg",
     description: [
       "Yuvensia Kharisma Novena",
       "12 November",
@@ -279,7 +279,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Bahasa Indonesia-4.jpg",
+    imageUrl: "./BI-4.jpg",
     description: [
       "Nova Kristina Pakpahan",
       "23 Mei",
@@ -290,7 +290,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Prakarya-1.jpg",
+    imageUrl: "./PRA-1.jpg",
     description: [
       "Ermina Kristiyani",
       "23 Februari",
@@ -301,7 +301,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Prakarya-2.jpg",
+    imageUrl: "./PRA-2.jpg",
     description: [
       "Andreas Krisna Putra Wiseno",
       "23 Mei",
@@ -312,7 +312,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Prakarya-3.jpg",
+    imageUrl: "./PRA-3.jpg",
     description: [
       "Beda Pranowo",
       "4 November",
@@ -389,7 +389,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Staff TU-1.jpg",
+    imageUrl: "./TU-1.jpg",
     description: [
       "Synthia Caroline",
       "14 Oktober",
@@ -400,7 +400,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Staff TU-2.jpg",
+    imageUrl: "./TU-2.jpg",
     description: [
       "Margaretha Yuniaty S.",
       "16 Juni",
@@ -411,7 +411,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Staff TU-3.jpg",
+    imageUrl: "./TU-3.jpg",
     description: [
       "Fransiskus Herry Diantoro",
       "2 Desember",
@@ -422,7 +422,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Staff TU-4.jpg",
+    imageUrl: "./TU-4.jpg",
     description: [
       "Novitasari Ginting",
       "9 September",
@@ -433,7 +433,7 @@ const polaroids = [
     ]
   },
   {
-    imageUrl: "./Staff TU-5.jpg",
+    imageUrl: "./TU-5.jpg",
     description: [
       "Theresia Anita",
       "15 Juni",

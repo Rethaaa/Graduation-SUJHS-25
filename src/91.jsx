@@ -26,7 +26,7 @@ const ScrollContent = styled(Box)(({ isPaused }) => ({
 
 const polaroids = [
   {
-    imageUrl: "./91-1.jpg",
+    imageUrl: "/91-1.jpg",
     description: [
       "Adinda Breton",
       "1/26/2010",

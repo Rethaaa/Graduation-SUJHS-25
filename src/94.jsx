@@ -48,7 +48,7 @@ const polaroids = [
     ],
   },
 {
-  imageUrl: "./94-03.jpg",
+  imageUrl: "./94-3.jpg",
   description: [
     "Angela Tribuana Tunggadewi Tanjaya",
     "1/12/2010",
@@ -59,7 +59,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-04.jpg",
+  imageUrl: "./94-4.jpg",
   description: [
     "Aretha Hartono",
     "1/13/2010",
@@ -70,7 +70,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-05.jpg",
+  imageUrl: "./94-5.jpg",
   description: [
     "Ayanara Kemal Harro",
     "6/10/2009",
@@ -81,7 +81,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-06.jpg",
+  imageUrl: "./94-6.jpg",
   description: [
     "Bernadeth Joscelyn Tan",
     "5/10/2010",
@@ -92,7 +92,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-07.jpg",
+  imageUrl: "./94-7.jpg",
   description: [
     "Brianna Naraya Atmadjaja",
     "4/28/2010",
@@ -103,7 +103,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-08.jpg",
+  imageUrl: "./94-8.jpg",
   description: [
     "Brigitta Milana Wahyudi",
     "10/28/2010",
@@ -114,7 +114,7 @@ const polaroids = [
   ],
 },
 {
-  imageUrl: "./94-09.jpg",
+  imageUrl: "./94-9.jpg",
   description: [
     "Casey Rae Limas",
     "11/3/2010",

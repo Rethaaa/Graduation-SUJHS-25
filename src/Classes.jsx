@@ -26,7 +26,7 @@ export default function Classes() {
   };
 
   return (
-    <Box sx={{ bgcolor: '#FFB915', width: '100%', p: 2 }}>
+    <Box sx={{ bgcolor: '#FFB915', width: '100vw', p: 2 }}>
       <Typography variant="h4" align="center" gutterBottom sx={{color: '#fff'}}>
         Class of 2025
       </Typography>
