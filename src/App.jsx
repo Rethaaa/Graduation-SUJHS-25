@@ -11,13 +11,29 @@ import './App.css';
 export default function App() {
   return (
     <Theme>
-      <Navbar></Navbar>
-      <Banner id="home"></Banner>
-      <YB id="yearbook"></YB>
-      <Classes></Classes>
-      <Teacher></Teacher>
-      <Info></Info>
-      <Footer></Footer>
+      <Navbar />
+
+      <section id="home">
+        <Banner />
+      </section>
+
+      <section id="yearbook">
+        <YB />
+      </section>
+
+      <section id="students">
+        <Classes />
+      </section>
+
+      <section id="teachers">
+        <Teacher />
+      </section>
+
+      <section id="memories">
+        <Info />
+      </section>
+
+      <Footer />
     </Theme>
   );
 }

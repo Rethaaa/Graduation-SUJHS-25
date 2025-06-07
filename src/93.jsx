@@ -70,7 +70,7 @@ const polaroids = [
         ],
     },
     {
-        imageUrl: "./93-5jpg",
+        imageUrl: "./93-5.jpg",
         description: [
             "Claire Arabelle Setiadi",
             "3 Februari 2010",
