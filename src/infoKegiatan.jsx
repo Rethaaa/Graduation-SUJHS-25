@@ -17,7 +17,7 @@ export default function infoKegiatan () {
         alignItems: 'center',
         height: '100vh',
         width: '100vw',
-      }}
+              }}
     >
       <Grid container spacing={2} sx={{ maxWidth: 1200 }}>
         {images.map((img, index) => (
@@ -40,7 +40,7 @@ export default function infoKegiatan () {
                   height: '100%',
                   width: 'auto',
                   objectFit: 'cover',
-                  transition: 'transform 0.4s ease',
+                                    transition: 'transform 0.4s ease',
                 },
                 '&:hover img': {
                   transform: 'translateX(0)',
