@@ -19,7 +19,7 @@ const Footer = () => {
             About Class of 2025
           </Typography>
           <Typography variant="body2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
+            Siswi Santa Ursula Jakarta tahun 2025 memiliki perjalanan dengan semangat pantang menyerah (persistence), ketangguhan dalam menghadapi tantangan (resilience), dan kebersamaan (unity). Seperti burung layang-layang (swallow bird) yang bermigrasi dalam kelompok dengan ketekunan dan kerja sama, Sanurian’25 tumbuh bersama, saling mendukung, dan menggapai mimpi secara kolektif. 
           </Typography>
         </Box>
 
@@ -34,42 +34,42 @@ const Footer = () => {
               <Box>
                 <Typography variant="subtitle2" fontWeight={"Bold"}>Tech Team</Typography>
                 <List dense sx={{ pl: 2 }}>
-                  <ListItem disableGutters>Aretha Hartono</ListItem>
-                  <ListItem disableGutters>Jemima Arcella Hasian Allagan</ListItem>
-                  <ListItem disableGutters>Kyna Audenie Kamal</ListItem>
-                  <ListItem disableGutters>Caroline Regina Darwis</ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Aretha Hartono</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Jemima Arcella Hasian Allagan</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Kyna Audenie Kamal</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Caroline Regina Darwis</Typography></ListItem>
                 </List>
               </Box>
 
               <Box>
                 <Typography variant="subtitle2" fontWeight={"Bold"}>Yearbook Team</Typography>
                 <List dense sx={{ pl: 2 }}>
-                  <ListItem disableGutters>Emilie Soesanto</ListItem>
-                  <ListItem disableGutters>Kenisha Djohan Young</ListItem>
-                  <ListItem disableGutters>Kayla Almyra Wardhana</ListItem>
-                  <ListItem disableGutters>Lucia Nera Candra Puntadewa</ListItem>
-                  <ListItem disableGutters>Catleen Mulan Tyas Ho</ListItem>
-                  <ListItem disableGutters>Latisha Lowena Lynd</ListItem>
-                  <ListItem disableGutters>Regina Gracia Johanes</ListItem>
-                  <ListItem disableGutters>Valika Arum Murtani</ListItem>
-                  <ListItem disableGutters>Aubrey Olivia Arifin</ListItem>
-                  <ListItem disableGutters>Perlita Garcia</ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Emilie Soesanto</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Kenisha Djohan Young</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Kayla Almyra Wardhana</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Lucia Nera Candra Puntadewa</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Catleen Mulan Tyas Ho</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Latisha Lowena Lynd</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Regina Gracia Johanes</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Valika Arum Murtani</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Aubrey Olivia Arifin</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Perlita Garcia</Typography></ListItem>
                 </List>
               </Box>
 
               <Box>
                 <Typography variant="subtitle2" fontWeight={"Bold"}>Event Team</Typography>
                 <List dense sx={{ pl: 2 }}>
-                  <ListItem disableGutters>Ivana Natasya Quinn Ginting</ListItem>
-                  <ListItem disableGutters>Samantha Angelina Malau</ListItem>
-                  <ListItem disableGutters>Jessica Susanto</ListItem>
-                  <ListItem disableGutters>Kimie Pratono Wijaya</ListItem>
-                  <ListItem disableGutters>Gabriella Michelle Budojo</ListItem>
-                  <ListItem disableGutters>Samantha Elaine Gunawan</ListItem>
-                  <ListItem disableGutters>Aretha Hartono</ListItem>
-                  <ListItem disableGutters>Milliana Romauli</ListItem>
-                  <ListItem disableGutters>Anastasia Nadia Ivanna Putri</ListItem>
-                  <ListItem disableGutters>Celestine Aiko Erdest</ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Ivana Natasya Quinn Ginting</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Samantha Angelina Malau</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Jessica Susanto</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Kimie Pratono Wijaya</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Gabriella Michelle Budojo</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Samantha Elaine Gunawan</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Aretha Hartono</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Milliana Romauli</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Anastasia Nadia Ivanna Putri</Typography></ListItem>
+                  <ListItem variant="body2" disableGutters><Typography>Celestine Aiko Erdest</Typography></ListItem>
                 </List>
               </Box>
             </Box>
