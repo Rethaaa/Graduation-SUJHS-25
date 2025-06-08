@@ -88,7 +88,7 @@ const polaroids = [
       "08111702545",
       "@cecilia._.fl0wer",
       "aubrey.arifin@gmail.com",
-      "“.”",
+      "“I've been braining so hard my think hurts..”",
     ],
   },
   {
@@ -275,7 +275,7 @@ const polaroids = [
       "08118689213",
       "@___judithhamanda",
       "mandajdth@gmail.com",
-      "“.”",
+      "“Why be starving? I have so much on my plate. My goal is to eat.”",
     ],
   },
   {
@@ -286,8 +286,7 @@ const polaroids = [
       "085885312983",
       "kootoo_030",
       "@limxiaowei.416@gmail.com",
-      "",
-      "“.”",
+      "“I accept apologies in cash✨️.”",
     ],
   },
   {
@@ -298,7 +297,7 @@ const polaroids = [
       "08119101072",
       "@_vallerst",
       "kyleemadylin@gmail.com",
-      "“.”",
+      "“Remember y'all...the more you weigh the harder you are to kidnap. Stay safe!!! Eat cake btw🚽💜.”",
     ],
   },
   {
@@ -353,7 +352,7 @@ const polaroids = [
       "081298290314",
       "@natash_shelley14",
       "natashashelly1014@gmail.com",
-      "“.”",
+      "“kerja, kerja, kerja, tipes.”",
     ],
   },
   {
