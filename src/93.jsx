@@ -77,7 +77,7 @@ const polaroids = [
             "087870104444",
             "@clairearabelles",
             "setiadi.clairea@gmail.com",
-            "You can ask for my autographs now before I’m famous",
+            "",
         ],
     },
     {
@@ -143,7 +143,7 @@ const polaroids = [
             "087839945017",
             "@chaargna",
             "graciakristovi@gmail.com",
-            "jangan nikah sebelum sukses tar jual pop es",
+            "",
         ]
     },
     {
@@ -165,7 +165,7 @@ const polaroids = [
             "08170808097",
             "@jeanette.jiauw",
             "jeanette.a.jiauw@gmail.com",
-            "Jangan lupa napas",
+            "",
         ]
     },
     {
@@ -275,7 +275,7 @@ const polaroids = [
             "08118582105",
             "@natalie_gisellee",
             "nataliegiselle21@gmail.com",
-            "Ivy Frank Ocean - 0:52",
+            "",
         ]
     },
     {

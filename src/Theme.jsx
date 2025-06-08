@@ -19,9 +19,6 @@ export default function Theme(props) {
       typography: {
         fontFamily: 'DM Sans',
       },
-      ListItem: {
-        fontFamily: 'DM Sans',
-      },
     });
     return (
         <ThemeProvider theme={themeOptions}>

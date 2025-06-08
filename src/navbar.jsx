@@ -30,13 +30,13 @@ const ResponsiveNavbar = () => {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center", backgroundColor: "#002A45", height: "100%" }}>
-      <Typography variant="h6" sx={{ my: 2, color: "#fff"}}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
         MOSAIC
       </Typography>
       <List>
         {navItems.map((item) => (
-          <ListItem button key={item.label} component="a" href={item.href} sx={{color: "#fff", backgroundColor: "#002A45",}}>
+          <ListItem button key={item.label} component="a" href={item.href}>
             <ListItemText primary={item.label} />
           </ListItem>
         ))}

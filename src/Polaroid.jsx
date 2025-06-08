@@ -6,6 +6,7 @@ const Polaroid = ({ imageUrl, description, onMouseEnter, onMouseLeave, onClick }
     <Card
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={onClick}
       sx={{
         width: 250,
         backgroundColor: "#fff",
@@ -43,12 +44,12 @@ const Polaroid = ({ imageUrl, description, onMouseEnter, onMouseLeave, onClick }
               variant="body2"
               align="center"
               sx={{
-                whiteSpace: "normal",     // ✅ allow wrapping
-                overflow: "hidden",       // ✅ keep layout safe
-                textOverflow: "ellipsis", // ✅ optional: add ... when needed
-                wordBreak: "break-word",  // ✅ break very long words
-                display: "block",         // ✅ make sure it's not inline
-              }}
+    whiteSpace: "normal",     // ✅ allow wrapping
+    overflow: "hidden",       // ✅ keep layout safe
+    textOverflow: "ellipsis", // ✅ optional: add ... when needed
+    wordBreak: "break-word",  // ✅ break very long words
+    display: "block",         // ✅ make sure it's not inline
+  }}
             >
               {text}
             </Typography>

@@ -66,7 +66,7 @@ const polaroids = [
     "08872236228",
     "@aretha.hartono",
     "aretha.hartonoo@gmail.com",
-    "“Aude ut unicus sis.”",
+    "",
   ],
 },
 {
@@ -308,7 +308,7 @@ const polaroids = [
     "081213008689",
     "@quenkellyy",
     "quenkellysihombing@gmail.com",
-    "who cares if im pretty if i fail my finals?",
+    "",
   ],
 },
 {
@@ -374,7 +374,7 @@ const polaroids = [
     "085692619663",
     "@ursulasahasra",
     "ursulasahasraaryaputri@gmail.com",
-    "scott street - 4:09",
+    "",
   ],
 },
 {

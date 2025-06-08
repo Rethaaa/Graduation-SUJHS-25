@@ -99,7 +99,7 @@ const polaroids = [
       "082311550771",
       "@kloi.lauw__",
       "chloe.lauw0807@gmail.com",
-      "“menyala abangkhu.”",
+      "“.”",
     ],
   },
   {
@@ -143,7 +143,7 @@ const polaroids = [
       "085782017338",
       "@eugeniabiancaa",
       "liu.bianca.eugenia@gmail.com",
-      "“Adulting is hard, because sometimes you just need haidilao!.”",
+      "“.”",
     ],
   },
   {
@@ -220,7 +220,7 @@ const polaroids = [
       "087717117177",
       "@katyarrose",
       "katyarose112@gmail.com",
-      "“Jadilah dirimu sendiri karena gaada yang mau jadi dirimu.”",
+      "“.”",
     ],
   },
   {

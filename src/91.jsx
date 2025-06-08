@@ -143,7 +143,7 @@ const polaroids = [
       "082123296034",
       "@jaailers",
       "febrianggara3011@gmail.com",
-      "oke.",
+      "",
     ],
   },
   {
@@ -286,7 +286,7 @@ const polaroids = [
     "081386926971",
     "@louisaap__",
     "louisaamabel45@gmail.com",
-    "Kesuksesan selalu berawal dari mimpi, maka marilah kita tidur.",
+    "",
   ],
 },
 {
@@ -341,7 +341,7 @@ const polaroids = [
     "081110677775",
     "@rachelhelenaa_",
     "helena.putrisip@gmail.com",
-    "Lorem ipsum dolor sit amet",
+    "",
   ],
 },
 {
