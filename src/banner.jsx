@@ -53,7 +53,7 @@ export default function Banner() {
       <div className="list">
         <img src="./Science Club.jpg" alt="" className="foto foto-1" />
         <img src="./Basket.jpg" alt="" className="foto foto-2" />
-        <img src=".Komputer.jpg" alt="" className="foto foto-3" />
+        <img src="./Komputer.jpg" alt="" className="foto foto-3" />
         <img src="./MB.jpg" alt="" className="foto foto-4" />
         <img src="./Orkestra.jpg" alt="" className="foto foto-5" />
       </div>

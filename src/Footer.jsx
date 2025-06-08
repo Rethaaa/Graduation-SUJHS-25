@@ -75,7 +75,7 @@ const Footer = () => {
             </Box>
           </Box>
 
-          <Divider sx={{ my: 2 }} />
+          <Divider sx={{ my: 2, background: "#fff" }} />
 
           <Typography variant="body2" align="right">
             &copy; {new Date().getFullYear()} Santa Ursula Junior High School Class of 2025. All rights reserved.
