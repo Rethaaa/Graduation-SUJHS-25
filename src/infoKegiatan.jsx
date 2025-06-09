@@ -67,7 +67,7 @@ export default function InfoKegiatan() {
                   left: 8,
                   bgcolor: 'rgba(0,0,0,0.6)',
                   color: '#fff',
-                  display: isMobile ? 'none' : 'flex', // 👈 Hide on mobile
+                  display: isMobile ? 'none' : 'flex',
                   alignItems: 'center',
                   padding: '4px 8px',
                   borderRadius: 1,
@@ -88,7 +88,7 @@ export default function InfoKegiatan() {
                   bgcolor: 'rgba(0,0,0,0.6)',
                   color: '#fff',
                   padding: '10px',
-                  opacity: isMobile ? 0 : 0, // 👈 Show always on mobile
+                  opacity: isMobile ? 0 : 0,
                   transition: 'opacity 0.4s ease',
                   borderBottomLeftRadius: 8,
                   borderBottomRightRadius: 8,
@@ -112,4 +112,3 @@ export default function InfoKegiatan() {
     </Box>
   );
 }
-};
