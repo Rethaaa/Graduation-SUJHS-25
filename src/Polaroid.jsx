@@ -1,5 +1,8 @@
 import React from "react";
-import { Card, CardMedia, CardContent, Typography, Box } from "@mui/material";
+import { Card, CardMedia, CardContent, Typography, Box, Link } from "@mui/material";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import PhoneIcon from "@mui/icons-material/Phone";
+import MailIcon from "@mui/icons-material/Mail";
 
 const Polaroid = ({ imageUrl, description, onMouseEnter, onMouseLeave, onClick }) => {
   return (
@@ -43,14 +46,66 @@ const Polaroid = ({ imageUrl, description, onMouseEnter, onMouseLeave, onClick }
               variant="body2"
               align="center"
               sx={{
-                whiteSpace: "normal",     // ✅ allow wrapping
-                overflow: "hidden",       // ✅ keep layout safe
-                textOverflow: "ellipsis", // ✅ optional: add ... when needed
-                wordBreak: "break-word",  // ✅ break very long words
-                display: "block",         // ✅ make sure it's not inline
+                whiteSpace: "normal",
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                wordBreak: "break-word",
+                display: "block",
               }}
             >
-              {text}
+              {index === 3 ? (
+                // Instagram
+                <Link
+                  href={`https://instagram.com/${text.replace("@", "")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  underline="none"
+                  sx={{
+                    color: "text.primary",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    transition: "all 0.3s ease",
+                    "&:hover": {
+                      color: "#003F66",
+                    },
+                  }}
+                >
+                  <InstagramIcon fontSize="small" style={{ marginRight: "3px" }} />
+                  {text}
+                </Link>
+              ) : index === 4 ? (
+                // Email
+                <Link
+                  href={`mailto:${text}`}
+                  underline="none"
+                  sx={{
+                    color: "text.primary",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    transition: "all 0.3s ease",
+                    "&:hover": {
+                      color: "#003F66",
+                    },
+                  }}
+                >
+                  <MailIcon fontSize="small" style={{ marginRight: "3px" }} />
+                  {text}
+                </Link>
+              ) : index === 2 ? (
+                // Phone
+                <Typography 
+                  variant="body2"
+                  sx={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <PhoneIcon fontSize="small" style={{ marginRight: "3px" }} />
+                  {text}
+                </Typography>
+              ) : (
+                text
+              )}
             </Typography>
           ))}
         </Box>
