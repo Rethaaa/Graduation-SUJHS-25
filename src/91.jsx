@@ -228,7 +228,7 @@ const polaroids = [
   description: [
     "Jacqueline Olivia Yang",
     "3/9/2010",
-    "628128882010",
+    "08128882010",
     "@jcqvia",
     "jacqueline.olivia.yang@gmail.com",
     "Time may drift away but the memories will stay with us forever",

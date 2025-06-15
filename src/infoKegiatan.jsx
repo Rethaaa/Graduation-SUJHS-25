@@ -2,10 +2,10 @@ import { Grid, Box, Typography, useTheme, useMediaQuery } from '@mui/material';
 import InfoIcon from '@mui/icons-material/Info';
 
 const images = [
-  { src: './Camping.jpeg', title: 'Camping', description: 'Camping dengan tema "Finding God in Nature"...' },
-  { src: './Live In.jpg', title: 'Live In', description: 'Live in dengan tema "New Experience, Become Inspirations"...' },
-  { src: './Bazaar.jpg', title: 'Bazaar', description: 'Bazaar dengan tema "PUSPANUSA"...' },
-  { src: './Retret.jpg', title: 'Retret', description: 'Retret adalah kegiatan perenungan dan penyegaran rohani...' },
+  { src: './Camping.jpeg', title: 'Camping', description: 'Camping dengan tema "Finding God in Nature" adalah sebuah pengalaman spiritual di tengah keindahan alam ciptaan-Nya. Dalam keheningan hutan, suara aliran sungai, dan langit malam yang bertabur bintang, peserta diajak untuk merenungkan kebesaran Tuhan, memperdalam iman, serta menemukan damai dan makna hidup melalui keajaiban alam. Kegiatan ini menggabungkan waktu teduh, diskusi rohani, serta aktivitas alam yang membangkitkan rasa syukur dan kekaguman akan karya Sang Pencipta.' },
+  { src: './Live In.jpg', title: 'Live In', description: 'Live in dengan tema "New Experience, Become Inspirations" adalah program pembelajaran langsung di tengah kehidupan masyarakat yang sederhana namun penuh makna. Melalui pengalaman baru tinggal dan berinteraksi dengan warga lokal, peserta diajak untuk membuka hati, belajar dari kehidupan nyata, serta menemukan nilai-nilai kehidupan yang dapat menginspirasi diri sendiri dan orang lain. Program ini menumbuhkan empati, rasa syukur, dan semangat untuk membawa perubahan positif setelah kembali ke lingkungan masing-masing.' },
+  { src: './Bazaar.jpg', title: 'Bazaar', description: 'Bazaar dengan tema "PUSPANUSA" — singkatan dari Puspa Nusantara — adalah perayaan meriah yang menampilkan keindahan dan keragaman budaya Indonesia. Melalui aneka kuliner tradisional, kerajinan tangan, busana daerah, serta pertunjukan seni dari berbagai penjuru Nusantara, acara ini menjadi wadah untuk mengenal, mencintai, dan melestarikan kekayaan budaya bangsa. "PUSPANUSA" bukan sekadar bazaar, melainkan pengalaman budaya yang menyatukan warna-warni Indonesia dalam satu harmoni yang memikat.' },
+  { src: './Retret.jpg', title: 'Retret', description: 'Retret adalah kegiatan perenungan dan penyegaran rohani yang dilakukan dalam suasana tenang dan jauh dari hiruk-pikuk keseharian. Melalui sesi refleksi, doa, sharing, dan pembinaan iman, peserta diajak untuk lebih mengenal diri, memperdalam relasi dengan Tuhan, serta menemukan arah dan makna hidup yang baru. Retret menjadi momen istimewa untuk berhenti sejenak, mendengarkan suara hati, dan kembali dengan semangat serta kedamaian yang diperbarui.' },
 ];
 
 export default function InfoKegiatan() {

@@ -31,8 +31,8 @@ const polaroids = [
       "Elisa Tri Meistiawan",
       "4 Mei",
       "082110621133",
-      "educator45@gmail.com ",
       "@iwan_etm",
+      "educator45@gmail.com ",
       "“Nak, tajamkan keunggulan pribadimu & terangilah sekitarmu dengan tidak sombong karena kita juga pribadi yang penuh dengan keterbatasan. Keep growing 🙏🏼.”",
     ],
   },
@@ -42,8 +42,8 @@ const polaroids = [
       "FA. Dimas Andika Wahyuanto",
       "11 Juli",
       "085729036488",
-      "wiryodiharjo90@gmail.com ",
       "@fadimasanto",
+      "wiryodiharjo90@gmail.com ",
       "“Kamu memiliki potensi yang tak terbatas, hanya perlu diaktifkan. Keep moving forward and think like a proton”",
     ],
   },
@@ -53,8 +53,8 @@ const polaroids = [
       "Fransisca Wiwik Martasari ",
       "7 Maret",
       "081325373202",
-      "wiexmartasari@gmail.com",
       "@wiwik_martasari",
+      "wiexmartasari@gmail.com",
       "Keberhasilan bukanlah milik orang yang pintar. Keberhasilan adalah kepunyaan mereka yang senantiasa berusaha ",
     ]
   },
@@ -64,8 +64,8 @@ const polaroids = [
       "Eleonora Yolanda Endear Ganamurti Sudarbe",
       "20 Januari",
       "089635945348",
-      "yolandaendear.sudarbe@gmail.com",
       "@yolanda.endear",
+      "yolandaendear.sudarbe@gmail.com",
       "Selalu Bahagia dimanapun kalian berada ^_^",
     ]
   },
@@ -75,8 +75,8 @@ const polaroids = [
       "Martinus Didik Setyawan",
       "22 Februari",
       "081316883877",
-      "didik@smp.santaursulajakarta.sch.id",
       "@martinusdidik",
+      "didik@smp.santaursulajakarta.sch.id",
       "Syukuri selalu yang ada...",
     ]
   },
@@ -86,8 +86,8 @@ const polaroids = [
       "Chatarina Maryani",
       "3 Maret",
       "08128188217",
-      "chatarinamaryani@gmail.com",
       "@chatarina_maryani",
+      "chatarinamaryani@gmail.com",
       "Nikmatilah masa mudamu dengan bertanggungjawab, dan jadilah wanita yang bermartabat.",
     ]
   },
@@ -97,8 +97,8 @@ const polaroids = [
       "Emilia Hendra Kristanti",
       "1 Oktober",
       "082225068535",
-      "emiliahendra1990@gmail.com",
       "@emiliahendra",
+      "emiliahendra1990@gmail.com",
       "Jangan takut untuk mencoba, karena setiap langkah kecil kita, akan membawa kita lebih dekat ke tujuan.",
     ]
   },
@@ -108,8 +108,8 @@ const polaroids = [
       "Theresia Yulianti",
       "29 Juli",
       "081382450104",
+      "-",
       "thresyuli@gmail.com",
-      "",
       "Jangan pernah berhenti belajar, karena hidup tak pernah berhenti memberikan pelajaran.",
     ]
   },
@@ -119,8 +119,8 @@ const polaroids = [
       "Agustinus Susanto",
       "11 Oktober",
       "081398726745",
-      "agus@smp.santaursulajakarta.sch.id ",
       "@ats_susanto",
+      "agus@smp.santaursulajakarta.sch.id ",
       "Teruslah bergerak maju, meski langkah kecil sekalipun, adalah tanda bahwa kamu sedang mendekati tujuan besar.",
     ]
   },
@@ -128,11 +128,11 @@ const polaroids = [
     imageUrl: "./IPS-3.jpg",
     description: [
       "Lorencia Helen Dora Sisworo",
-    "6  Desember",
+      "6 Desember",
       "08112656509",
-      "lorenciahelendora@gmail.com",
       "@lhelendora",
-      "",
+      "lorenciahelendora@gmail.com",
+      "-",
     ]
   },
   {
@@ -141,8 +141,8 @@ const polaroids = [
       "Aloysius Krismaryanta ",
       "31 Mei",
       "08161319649",
+      "-",
       "krisma31.ak@gmail.com",
-      "",
       "Belajarlah dari hidup  kesederhanaan Bapa Paus Fransiskus",
     ]
   },
@@ -152,9 +152,9 @@ const polaroids = [
       "Arny Porba",
       "4 April",
       "081389780562",
-      "arnyporba@gmail.com",
       "@arnyporba",
-      "",
+      "arnyporba@gmail.com",
+      "-",
     ]
   },
   {
@@ -163,8 +163,8 @@ const polaroids = [
       "Arya Raka Sadewa ",
       "21 September",
       "082332340556",
-      "aryaraka799@gmail.com",
       "@arakas_ss",
+      "aryaraka799@gmail.com",
       "Sonder",
     ]
   },
@@ -174,8 +174,8 @@ const polaroids = [
       "Vina Agustin",
       "6 Agustus",
       "0818844757",
+      "-",
       "vinagustin6@gmail.com",
-      "",
       "Be the best version of yourself. ",
     ]
   },
@@ -185,8 +185,8 @@ const polaroids = [
       "Khrisna Putuningsih",
       "8 Juni",
       "08161311904",
-      "khrisnaputuningsih@gmail.com",
       "@khrisna.putu",
+      "khrisnaputuningsih@gmail.com",
       "Do to others what you want others do to you (Matthew 7:12) ",
     ]
   },
@@ -196,8 +196,8 @@ const polaroids = [
       "Yohana Alaya Prudenti",
       "23 Juni",
       "08112996623",
-      "yohanaalayaprudenti@gmail.com",
       "@yohnaap",
+      "yohanaalayaprudenti@gmail.com",
       "Life is a box full of surprises.",
     ]
   },
@@ -207,8 +207,8 @@ const polaroids = [
       "Karinna",
       "28 November",
       "085691942328",
-      "karinnaingleton@gmail.com",
       "@karinnaingleton",
+      "karinnaingleton@gmail.com",
       "“Jadilah obor yang mampu menerangi peziarahan hidup”",
     ]
   },
@@ -218,8 +218,8 @@ const polaroids = [
       "Ignatius Dimmas",
       "9 Juli",
       "08561542234",
-      "dimaslight9@gmail.com",
       "@ignatiusdimmas",
+      "dimaslight9@gmail.com",
       "Don't Rich People Difficult",
     ]
   },
@@ -229,8 +229,8 @@ const polaroids = [
       "Edyson Isdy",
       "10 Oktober",
       "081294295960",
-      "edysonisdy1967@gmail.com",
       "@edyson.isdy",
+      "edysonisdy1967@gmail.com",
       "Jika kamu Serviam sejati terbangmu jauh jangan lupa kembali ke kampus Ursula",
     ]
   },
@@ -240,8 +240,8 @@ const polaroids = [
       "Jose Geni",
       "28 Februari",
       "081219083060",
-      "josegeni2802@gmail.com",
       "@josegeniii.jg",
+      "josegeni2802@gmail.com",
       "Perjalananmu mungkin tidak lurus, tapi setiap belokan memiliki makna. Teruslah melangkah, dan kamu akan sampai ke tujuanmu",
     ]
   },
@@ -251,8 +251,8 @@ const polaroids = [
       "Yulia Sri Utami",
       "28 Mei",
       "081843280572",
-      "kotanutama@gmail.com",
       "@juliautami ",
+      "kotanutama@gmail.com",
       "Peganglah semangat Serviam dalam hidupmu. SERVIAM.",
     ]
   },
@@ -262,8 +262,8 @@ const polaroids = [
       "Antonius Haris Septiaji ",
       "20 September",
       "085713905941",
-      "ant.haris20@gmail.com",
       "@antoniusharis20",
+      "ant.haris20@gmail.com",
       "Bersyukur adalah langkah awal untuk berkembang.",
     ]
   },
@@ -273,8 +273,8 @@ const polaroids = [
       "Yuvensia Kharisma Novena",
       "12 November",
       "081475507844",
-      "ynovena@gmail.com",
       "@ynovena",
+      "ynovena@gmail.com",
       "”Hujan mungkin turun seolah akan menyapu segalanya. Tapi begitu matahari mulai bersinar lagi, kehidupan bangkit kembali, apa pun yang terjadi.” -WLGUT-",
     ]
   },
@@ -284,8 +284,8 @@ const polaroids = [
       "Nova Kristina Pakpahan",
       "23 Mei",
       "085283708498",
-      "novapakpahan19@gmail.com",
       "@novacp",
+      "novapakpahan19@gmail.com",
       "Hakuna Matata",
     ]
   },
@@ -295,8 +295,8 @@ const polaroids = [
       "Ermina Kristiyani",
       "23 Februari",
       "087882940581",
+      "-",
       "erminakity4@gmail.com",
-      "",
       "Miliki cukup keberanian untuk memulai dan cukup hati untuk menyelesaikannya",
     ]
   },
@@ -306,8 +306,8 @@ const polaroids = [
       "Andreas Krisna Putra Wiseno",
       "23 Mei",
       "081296653523",
-      "andreaskrisnapw@gmail.com",
       "@andreaskrisnapw",
+      "andreaskrisnapw@gmail.com",
       "Be Creative 😉",
     ]
   },
@@ -317,8 +317,8 @@ const polaroids = [
       "Beda Pranowo",
       "4 November",
       "085881526898",
+      "-",
       "beda_mercury@yahoo.com",
-      "",
       "Jadilah pribadi yang sederhana, jujur dan selalu bersyukur. Dan jangan lupa untuk selalu mengandalkan Tuhan. Sukses Selalu. Tuhan Memberkati.",
     ]
   },
@@ -328,8 +328,8 @@ const polaroids = [
       "Dwi Endah Prasetyowati",
       "14 April",
       "081519808178",
-      "endahkhristiandri77@gmail.com",
       "@endahyuliana",
+      "endahkhristiandri77@gmail.com",
       "Success is the sun of small efforts, repeated day-in and day-out",
     ]
   },
@@ -339,8 +339,8 @@ const polaroids = [
       "Dewi Sartika Nadeak",
       "5 Desember",
       "085211004802",
-      "nadeakrajagukguk@gmail.com",
       "@Nadeak_Dewi",
+      "nadeakrajagukguk@gmail.com",
       "Konsistensi adalah kunci menuju kesuksesan",
     ]
   },
@@ -350,8 +350,8 @@ const polaroids = [
       "Marcellina Yovita",
       "17 Juli",
       "087875103551",
-      "marcellina.yovitaa@gmail.com",
       "@marcellina.y",
+      "marcellina.yovitaa@gmail.com",
       "Do the best and let God do the rest!",
     ]
   },
@@ -361,8 +361,8 @@ const polaroids = [
       "Yustina Indrati",
       "18 Desember",
       "081289648528",
-      "yindrati@gmail.com",
       "@yustinaindrati",
+      "yindrati@gmail.com",
       "Tetap sehat dan semangat untuk angkatan ini, raih kesuksesanmu. Tuhan Memberkati.",
     ]
   },
@@ -372,8 +372,8 @@ const polaroids = [
       "Robbidin Subagja",
       "20 November",
       "083862418796",
-      "robbidinsubagja@gmail.com",
       "@robbidin20",
+      "robbidinsubagja@gmail.com",
       "Boleh jadi kamu membenci sesuatu, padahal ia amat baik bagimu, dan boleh jadi (pula) kamu menyukai sesuatu, padahal ia amat buruk bagimu. Allah mengetahui, sedangkan kamu tidak mengetahui",
     ]
   },
@@ -383,8 +383,8 @@ const polaroids = [
       "Ruthmana Purba",
       "30 Agustus",
       "082294089173",
-      "ruthmana0@gmail.com",
       "@ruthmana_purba",
+      "ruthmana0@gmail.com",
       "Kesuksesan itu bukan ditunggu, tetapi diwujudkan lewat usaha dan kegigihan",
     ]
   },
@@ -394,8 +394,8 @@ const polaroids = [
       "Synthia Caroline",
       "14 Oktober",
       "08119141480",
-      "syncaroline81@gmail.com",
       "@mimosben14",
+      "syncaroline81@gmail.com",
       "Bersukacitalah dalam pengharapan, sabarlah dalam kesesakan, dan bertekunlah dalam doa! (Roma 12:12)",
     ]
   },
@@ -405,8 +405,8 @@ const polaroids = [
       "Margaretha Yuniaty S.",
       "16 Juni",
       "081318793672",
+      "-",
       "rethasanur@gmail.com",
-      "",
       "ORA ET LABORA",
     ]
   },
@@ -416,8 +416,8 @@ const polaroids = [
       "Fransiskus Herry Diantoro",
       "2 Desember",
       "081212879768",
-      "dianbill22@gmail.com",
       "@HERRY_DIANTORO",
+      "dianbill22@gmail.com",
       "Jadilah versi terbaik dari dirimu, bukan tiruan dari orang lain. Dunia membutuhkanmu, bukan seseorang yang lain.",
     ]
   },
@@ -427,8 +427,8 @@ const polaroids = [
       "Novitasari Ginting",
       "9 September",
       "085275007251",
-      "ovi.sari99@gmail.com",
       "@novita_sariginting",
+      "ovi.sari99@gmail.com",
       "semangat...semangat ...semangat",
     ]
   },
@@ -438,8 +438,8 @@ const polaroids = [
       "Theresia Anita",
       "15 Juni",
       "081298787332",
-      "lunar.eclipse85@gmail.com",
       "@lunar.eclipse85",
+      "lunar.eclipse85@gmail.com",
       "Jangan biarkan kegagalan kemarin membuatmu berhenti, jangan pula berhenti karena keraguanmu.",
     ]
   },
