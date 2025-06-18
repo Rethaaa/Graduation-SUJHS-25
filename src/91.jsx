@@ -8,7 +8,7 @@ const polaroids = [
     imageUrl: "/91-1.jpg",
     description: [
       "Adinda Breton",
-      "1/26/2010",
+      "26 Januari 2010",
       "08211786553",
       "@adinda.breton",
       "adindabreton10@gmail.com",
@@ -19,7 +19,7 @@ const polaroids = [
     imageUrl: "./91-2.jpg",
     description: [
       "Amadea Tirzasinthadewi Sembiring",
-      "4/28/2010",
+      "28 April 2010",
       "08118336228",
       "@aprilamadea",
       "amadeaprilia@gmail.com",
@@ -30,7 +30,7 @@ const polaroids = [
     imageUrl: "./91-3.jpg",
     description: [
       "Aretha Karenza Pang",
-      "9/13/2010",
+      "13 September 2010",
       "087888802699",
       "@cozy_1309",
       "arethakarenzapang@gmail.com",
@@ -41,7 +41,7 @@ const polaroids = [
     imageUrl: "./91-4.jpg",
     description: [
       "Bernadette Sharon Ohisto",
-      "11/18/2009",
+      "18 November 2009",
       "0811979762",
       "@sharon.ohisto",
       "sharon.ohisto75@gmail.com",
@@ -52,7 +52,7 @@ const polaroids = [
     imageUrl: "./91-5.jpg",
     description: [
       "Bianca Madoka Rianto",
-      "4/22/2010",
+      "22 April 2010",
       "0818370055",
       "@biancarianto_",
       "bianca.rianto@gmail.com",
@@ -63,7 +63,7 @@ const polaroids = [
     imageUrl: "./91-6.jpg",
     description: [
       "Christie Annabelle Angker",
-      "12/18/2009",
+      "18 Desember 2009",
       "085607297736",
       "@christieannabelle_18",
       "christieannabelle18@gmail.com",
@@ -74,7 +74,7 @@ const polaroids = [
     imageUrl: "./91-7.jpg",
     description: [
       "Clare Celine Marsono",
-      "3/5/2010",
+      "5 Maret 2010",
       "08194171222",
       "@clare.celinee",
       "clarecelinemarsono@gmail.com",
@@ -85,7 +85,7 @@ const polaroids = [
     imageUrl: "./91-8.jpg",
     description: [
       "Dhifa Putri Faesa",
-      "3/3/2010",
+      "3 Maret 2010",
       "081288213877",
       "@m_divaa03",
       "diva.m0310@gmail.com",
@@ -96,7 +96,7 @@ const polaroids = [
     imageUrl: "./91-9.jpg",
     description: [
       "Emilie Soesanto",
-      "10/26/2009",
+      "26 Oktober 2009",
       "081519098696",
       "@emiliesoesanto",
       "emiliesoesanto@gmail.com",
@@ -107,7 +107,7 @@ const polaroids = [
     imageUrl: "./91-10.jpg",
     description: [
       "Eugenia Nathanie Kurniawan",
-      "9/24/2010",
+      "24 September 2010",
       "081284837124",
       "@eugn.nk",
       "eugeniakurniawan427@gmail.com",
@@ -118,7 +118,7 @@ const polaroids = [
     imageUrl: "./91-11.jpg",
     description: [
       "Febri Anggara",
-      "11/30/2009",
+      "30 November 2009",
       "082123296034",
       "@jaailers",
       "febrianggara3011@gmail.com",
@@ -129,7 +129,7 @@ const polaroids = [
     imageUrl: "./91-12.jpg",
     description: [
       "Florie Amara Kurniadi",
-      "3/15/2010",
+      "15 Maret 2010",
       "0895604925352",
       "@Amxroeee",
       "amara.kurniadi@gmail.com",
@@ -140,7 +140,7 @@ const polaroids = [
     imageUrl: "./91-13.jpg",
     description: [
       "Gabriele Kimiko Putri Ramali",
-      "8/6/2010",
+      "6 Agustus 2010",
       "087702000688",
       "@kimiko_ramali",
       "kimikoramali0608@gmail.com",
@@ -151,7 +151,7 @@ const polaroids = [
     imageUrl: "./91-14.jpg",
     description: [
       "Grace Adrienne Tan",
-      "4/29/2010",
+      "29 April 2010",
       "08170815295",
       "@obsecced",
       "grace.adriennetan@gmail.com",
@@ -162,7 +162,7 @@ const polaroids = [
     imageUrl: "./91-15.jpg",
     description: [
       "Isabel Aurelia Tjakrarahardja",
-      "11/18/2009",
+      "18 November 2009",
       "081385750546",
       "@isabelaureliat",
       "isabelaureliaa18@gmail.com",
@@ -173,7 +173,7 @@ const polaroids = [
     imageUrl: "./91-16.jpg",
     description: [
       "Isabella Sophie Gunawan",
-      "11/9/2010",
+      "9 November 2010",
       "081299960911",
       "@i_sophieg",
       "isabellasophie.gunawan@gmail.com",
@@ -184,7 +184,7 @@ const polaroids = [
   imageUrl: "./91-17.jpg",
   description: [
     "Ishabella Ayuswari Tabaluyan",
-    "9/15/2010",
+    "15 September 2010",
     "08119308311",
     "@willie_bellie",
     "ishabella.ayuswari@gmail.com",
@@ -195,7 +195,7 @@ const polaroids = [
   imageUrl: "./91-18.jpg",
   description: [
     "Ivana Natasya Quinn Ginting",
-    "1/3/2010",
+    "3 Januari 2010",
     "081283002237",
     "@ivanagintingm",
     "ivananqgm@gmail.com",
@@ -206,7 +206,7 @@ const polaroids = [
   imageUrl: "./91-19.jpg",
   description: [
     "Jacqueline Olivia Yang",
-    "3/9/2010",
+    "9 Maret 2010",
     "08128882010",
     "@jcqvia",
     "jacqueline.olivia.yang@gmail.com",
@@ -216,8 +216,8 @@ const polaroids = [
 {
   imageUrl: "./91-20.jpg",
   description: [
-    "Kanaya Shira Dannellle",
-    "11/11/2010",
+    "Kanaya Shira Dannelle",
+    "11 November 2010",
     "081280212804",
     "@nayashiraa",
     "kanayashira11@gmail.com",
@@ -228,7 +228,7 @@ const polaroids = [
   imageUrl: "./91-21.jpg",
   description: [
     "Kenisha Djohan Young",
-    "8/23/2009",
+    "23 Agustus 2009",
     "081238732384",
     "@keniidjohn",
     "kenisha.djohanyoung@gmail.com",
@@ -239,7 +239,7 @@ const polaroids = [
   imageUrl: "./91-22.jpg",
   description: [
     "Kyna Audenie Kamal",
-    "4/16/2010",
+    "16 April 2010",
     "081818475999",
     "@kynaaudi",
     "kyna.kamal@gmail.com",
@@ -250,7 +250,7 @@ const polaroids = [
   imageUrl: "./91-23.jpg",
   description: [
     "Lidya Putri Harsono",
-    "10/11/2010",
+    "11 Oktober 2010",
     "08180617110",
     "@_lidyaisuke",
     "lidyaputrihrsn110@gmail.com",
@@ -261,7 +261,7 @@ const polaroids = [
   imageUrl: "./91-24.jpg",
   description: [
     "Louisa Amabel Pramesthi",
-    "3/18/2010",
+    "18 Maret 2010",
     "081386926971",
     "@louisaap__",
     "louisaamabel45@gmail.com",
@@ -272,7 +272,7 @@ const polaroids = [
   imageUrl: "./91-25.jpg",
   description: [
     "Ludmilla Jemima Atkausar",
-    "10/30/2010",
+    "30 Oktober 2010",
     "0816831887",
     "@ludmillaja_",
     "ljatkausar@gmail.com",
@@ -283,7 +283,7 @@ const polaroids = [
   imageUrl: "./91-26.jpg",
   description: [
     "Michaela Christalyn",
-    "8/3/2010",
+    "3 Agustus 2010",
     "082211961588",
     "@christaly.n",
     "inichristy0308@gmail.com",
@@ -294,7 +294,7 @@ const polaroids = [
   imageUrl: "./91-27.jpg",
   description: [
     "Natania Joanne Hermawan",
-    "11/18/2010",
+    "18 November 2010",
     "081280034850",
     "@natania_hrmwn",
     "natania.joanne@gmail.com",
@@ -305,7 +305,7 @@ const polaroids = [
   imageUrl: "./91-28.jpg",
   description: [
     "Natasha Marianne Subari",
-    "9/8/2010",
+    "8 September 2010",
     "08119910028",
     "@_natashasubari_",
     "natashasubari2010@gmail.com",
@@ -316,7 +316,7 @@ const polaroids = [
   imageUrl: "./91-29.jpg",
   description: [
     "Rachel Helena Putri Sipahutar",
-    "4/26/2010",
+    "26 April 2010",
     "081110677775",
     "@rachelhelenaa_",
     "helena.putrisip@gmail.com",
@@ -327,7 +327,7 @@ const polaroids = [
   imageUrl: "./91-30.jpg",
   description: [
     "Rebecca Keisha Fernandi",
-    "9/21/2010",
+    "21 September 2010",
     "0895401663800",
     "@rebeccaakf",
     "rebeccakeisha219@gmail.com",
@@ -338,7 +338,7 @@ const polaroids = [
   imageUrl: "./91-31.jpg",
   description: [
     "Rosabelle Valerie Wijaya",
-    "4/22/2010",
+    "22 April 2010",
     "081290887887",
     "@rosabellevalerie",
     "rosabellewijaya@gmail.com",
@@ -349,7 +349,7 @@ const polaroids = [
   imageUrl: "./91-32.jpg",
   description: [
     "Samantha Angelina Malau",
-    "6/9/2010",
+    "9 Juni 2010",
     "082112648707",
     "@saam_angell",
     "samanthaangelinn@gmail.com",
@@ -360,7 +360,7 @@ const polaroids = [
   imageUrl: "./91-33.jpg",
   description: [
     "Shannon Deandra Cahyady",
-    "3/18/2010",
+    "18 Maret 2010",
     "087846773377",
     "@shannon.deandra",
     "shonndeandra123@gmail.com",
@@ -371,7 +371,7 @@ const polaroids = [
   imageUrl: "./91-34.jpg",
   description: [
     "Theresia Rara Andini",
-    "1/8/2010",
+    "8 Januari 2010",
     "087780182626",
     "@raraandnii",
     "raraandinii18@gmail.com",
@@ -382,7 +382,7 @@ const polaroids = [
   imageUrl: "./91-35.jpg",
   description: [
     "Valerie Anabelle",
-    "11/20/2009",
+    "20 November 2009",
     "081385402692",
     "@val_anbl",
     "val.anbll@gmail.com",
@@ -393,7 +393,7 @@ const polaroids = [
   imageUrl: "./91-36.jpg",
   description: [
     "Violeta Chyntia",
-    "3/22/2010",
+    "22 Maret 2010",
     "08118780184",
     "@violetachyntia",
     "Violetachyntia2203@gmail.com",
