@@ -1,28 +1,7 @@
 import React, { useState } from "react";
-import { Box, Dialog, DialogTitle, DialogContent } from "@mui/material";
-import { keyframes } from "@emotion/react";
-import { styled } from "@mui/system";
+import { Box, Dialog, DialogTitle, DialogContent, Typography, IconButton, useTheme, useMediaQuery } from "@mui/material";
+import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 import Polaroid from "./Polaroid";
-
-// Scroll animation
-const scroll = keyframes`
-  0% { transform: translate3d(0, 0, 0); }
-  100% { transform: translate3d(-50%, 0, 0); }
-`;
-
-const ScrollContainer = styled(Box)({
-    overflow: "hidden",
-    whiteSpace: "nowrap",
-    width: "100%",
-    padding: "30px",
-});
-
-const ScrollContent = styled(Box)(({ isPaused }) => ({
-    display: "inline-flex",
-    whiteSpace: "nowrap",
-    animation: `${scroll} 40s linear infinite`,
-    animationPlayState: isPaused ? "paused" : "running",
-}));
 
 const polaroids = [
     {
@@ -412,54 +391,97 @@ const polaroids = [
     },
 ];
 
-const allPolaroids = [...polaroids, ...polaroids];
+const PolaroidCarousel = () => {
+  const [expandedCard, setExpandedCard] = useState(null);
+  const [startIndex, setStartIndex] = useState(0);
+  const theme = useTheme();
+  const isXs = useMediaQuery(theme.breakpoints.down("sm"));
+  const isSm = useMediaQuery(theme.breakpoints.between("sm", "md"));
+  const isMd = useMediaQuery(theme.breakpoints.between("md", "lg"));
 
-const InfiniteScrollPolaroids = () => {
-    const [isPaused, setIsPaused] = useState(false);
-    const [expandedCard, setExpandedCard] = useState(null);
+  let visibleCount = 3;
+  if (isXs) visibleCount = 1;
+  else if (isSm) visibleCount = 2;
+  else if (isMd) visibleCount = 2;
 
-    const handleOpen = (cardData) => setExpandedCard(cardData);
-    const handleClose = () => setExpandedCard(null);
+  const handlePrev = () => {
+    const prevIndex = startIndex - visibleCount;
 
-    return (
-        <>
-            <ScrollContainer>
-                <ScrollContent isPaused={isPaused} speed={40}>
-                    {allPolaroids.map((data, index) => (
-                        <Polaroid
-                            key={index}
-                            imageUrl={data.imageUrl}
-                            description={data.description}
-                            onMouseEnter={() => setIsPaused(true)}
-                            onMouseLeave={() => setIsPaused(false)}
-                            onClick={() => handleOpen(data)}
-                        />
-                    ))}
-                </ScrollContent>
-            </ScrollContainer>
+    if (prevIndex < 0) {
+      const lastFullIndex = Math.floor((polaroids.length - 1) / visibleCount) * visibleCount;
+      setStartIndex(lastFullIndex); // loop to the last full set
+    } else {
+      setStartIndex(prevIndex);
+    }
+  };
 
-            <Dialog open={Boolean(expandedCard)} onClose={handleClose} maxWidth="sm" fullWidth>
-                {expandedCard && (
-                    <>
-                        <DialogTitle>{expandedCard.description[0]}</DialogTitle>
-                        <DialogContent>
-                            <Box
-                                component="img"
-                                src={expandedCard.imageUrl}
-                                alt="Expanded Polaroid"
-                                sx={{ width: "100%", borderRadius: 2, marginBottom: 2 }}
-                            />
-                            {expandedCard.description.map((text, i) => (
-                                <Typography key={i} variant="body1" gutterBottom>
-                                    {text}
-                                </Typography>
-                            ))}
-                        </DialogContent>
-                    </>
-                )}
-            </Dialog>
-        </>
-    );
+  const handleNext = () => {
+    const nextIndex = startIndex + visibleCount;
+
+    if (nextIndex >= polaroids.length) {
+      setStartIndex(0); // loop back to the beginning
+    } else {
+      setStartIndex(nextIndex);
+    }
+  };
+
+  const handleOpen = (cardData) => setExpandedCard(cardData);
+  const handleClose = () => setExpandedCard(null);
+
+  return (
+    <>
+      <Box
+        display="flex"
+        alignItems="center"
+        justifyContent="center"
+        flexWrap="wrap"
+        gap={2}
+        px={2}
+        overflow="hidden"
+        sx={{height: 600}}
+      >
+        <IconButton onClick={handlePrev}>
+          <ArrowBackIos />
+        </IconButton>
+
+        <Box display="flex" flexWrap="wrap" justifyContent="center" gap={2}>
+          {polaroids.slice(startIndex, startIndex + visibleCount).map((data, index) => (
+            <Polaroid
+              key={index}
+              imageUrl={data.imageUrl}
+              description={data.description}
+              onClick={() => handleOpen(data)}
+            />
+          ))}
+        </Box>
+
+        <IconButton onClick={handleNext}>
+          <ArrowForwardIos />
+        </IconButton>
+      </Box>
+
+      <Dialog open={Boolean(expandedCard)} onClose={handleClose} maxWidth="sm" fullWidth>
+        {expandedCard && (
+          <>
+            <DialogTitle>{expandedCard.description[0]}</DialogTitle>
+            <DialogContent>
+              <Box
+                component="img"
+                src={expandedCard.imageUrl}
+                alt="Expanded Polaroid"
+                sx={{ width: "100%", borderRadius: 2, mb: 2 }}
+              />
+              {expandedCard.description.map((text, i) => (
+                <Typography key={i} variant="body1" gutterBottom>
+                  {text}
+                </Typography>
+              ))}
+            </DialogContent>
+          </>
+        )}
+      </Dialog>
+    </>
+  );
 };
 
-export default InfiniteScrollPolaroids;
+export default PolaroidCarousel;

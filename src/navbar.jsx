@@ -20,7 +20,6 @@ const navItems = [
   { label: "Teachers", href: "#teachers" },
   { label: "Memories", href: "#memories" },
 ];
-// const navItems = ["Home", "Yearbook", "Students", "Teachers", "Memories"];
 
 const ResponsiveNavbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);

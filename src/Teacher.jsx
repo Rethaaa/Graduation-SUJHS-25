@@ -20,7 +20,7 @@ const ScrollContainer = styled(Box)({
 const ScrollContent = styled(Box)(({ isPaused }) => ({
   display: "inline-flex",
   whiteSpace: "nowrap",
-  animation: `${scroll} 40s linear infinite`,
+  animation: `${scroll} 60s linear infinite`,
   animationPlayState: isPaused ? "paused" : "running",
 }));
 
@@ -458,7 +458,7 @@ const InfiniteScrollPolaroids = () => {
   return (
     <>
       <ScrollContainer>
-        <ScrollContent isPaused={isPaused} speed={40}>
+        <ScrollContent isPaused={isPaused} speed={60}>
           {allPolaroids.map((data, index) => (
             <Polaroid
               key={index}
