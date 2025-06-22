@@ -343,6 +343,7 @@ const polaroids = [
             "@elainesamanthaa",
             "elainesam1510@gmail.com",
             "elainesam1510@gmail.com",
+            "Live by faith, not by fear.",
         ]
     },
     {

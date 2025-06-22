@@ -5,6 +5,7 @@ import YB from './YB';
 import Classes from './Classes';
 import Teacher from './Teacher';
 import Info from './infoKegiatan';
+import Memories from './Memories'
 import Footer from './Footer';
 import './App.css';
 
@@ -31,6 +32,7 @@ export default function App() {
 
       <section id="memories">
         <Info />
+        <Memories />
       </section>
 
       <Footer />
