@@ -61,7 +61,7 @@ const VideoCarousel = () => {
             backgroundColor: "#000",
           }}
         >
-          <iframe
+          <video
             src={videos[currentIndex].src}
             controls
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
